@@ -1,0 +1,60 @@
+2023-05-24 11:35:45,369 INFO [image]                 Book.java:601  | 1 sheet in .\input\image.png
+2023-05-24 11:35:45,689 INFO []                 Book.java:2515 | Stored /book.xml
+2023-05-24 11:35:45,689 INFO []                 Book.java:2476 | Book stored as mxl\image.omr
+2023-05-24 11:35:45,713 INFO []                 Book.java:1963 | Book reaching PAGE on sheets:[#1]
+2023-05-24 11:35:45,716 INFO [image]       StepMonitoring.java:98   | LOAD
+2023-05-24 11:35:45,946 INFO [image]                 Book.java:1845 | Loaded image 1 2560x1920 from .\input\image.png
+2023-05-24 11:35:45,953 INFO [image]            ImageUtil.java:122  | Converting max RGB to gray
+2023-05-24 11:35:46,139 INFO [image]       StepMonitoring.java:98   | BINARY
+2023-05-24 11:35:46,655 INFO [image]       StepMonitoring.java:98   | SCALE
+2023-05-24 11:35:46,681 INFO [image]         ScaleBuilder.java:234  | Beam  guessed height: 12 -- 0.50 of 23 interline
+2023-05-24 11:35:46,683 INFO [image]         ScaleBuilder.java:257  | Beam measured height: 12 -- 0.35 of [6..23] range at 81% of needed quorum
+2023-05-24 11:35:46,685 INFO [image]            ScaleStep.java:65   | Scale{ interline(22,23,24) line(1,2,4) beam(12)}
+2023-05-24 11:35:46,686 INFO [image]       StepMonitoring.java:98   | GRID
+2023-05-24 11:35:47,810 INFO [image]       LinesRetriever.java:1490 | Global slope: -0.00106
+2023-05-24 11:35:47,840 INFO [image]    ClustersRetriever.java:334  | Retrieved line clusters: 6 of sizes [5] with interline(22,23,24)
+2023-05-24 11:35:49,183 INFO [image]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6]
+2023-05-24 11:35:50,049 INFO [image]        SystemManager.java:736  | 1 part along 3 systems
+2023-05-24 11:35:50,053 INFO [image]                 Book.java:584  | Created scores: [{Score 1}]
+2023-05-24 11:35:50,055 INFO [image]       StepMonitoring.java:98   | HEADERS
+2023-05-24 11:35:50,590 INFO [image]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2023-05-24 11:35:50,613 INFO [image]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/D:/Braille%20Sheet%20App/audiveris/build/distributions/Audiveris-5.3-beta/lib/audiveris.jar!/res/basic-classifier.zip
+2023-05-24 11:35:52,150 INFO [image]       StepMonitoring.java:98   | STEM_SEEDS
+2023-05-24 11:35:52,913 INFO [image]            ImageUtil.java:204  | Discarding alpha band ...
+2023-05-24 11:35:53,267 INFO [image]            ImageUtil.java:122  | Converting max RGB to gray
+2023-05-24 11:35:53,441 INFO [image]        StemSeedsStep.java:86   | stem(3 max:4)
+2023-05-24 11:35:53,613 INFO [image]       StepMonitoring.java:98   | BEAMS
+2023-05-24 11:35:56,157 INFO [image]       StepMonitoring.java:98   | LEDGERS
+2023-05-24 11:35:56,361 INFO [image]       StepMonitoring.java:98   | HEADS
+2023-05-24 11:36:00,040 INFO [image]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.2,R:0.3]}
+2023-05-24 11:36:00,040 INFO [image]       StepMonitoring.java:98   | STEMS
+2023-05-24 11:36:00,757 INFO [image]       StepMonitoring.java:98   | REDUCTION
+2023-05-24 11:36:01,100 INFO [image]        ReductionStep.java:93   | Stems free length median value: 80 pixels, 3.5 interlines
+2023-05-24 11:36:01,139 INFO [image]       StepMonitoring.java:98   | CUE_BEAMS
+2023-05-24 11:36:01,144 INFO [image]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2023-05-24 11:36:01,146 INFO [image]       StepMonitoring.java:98   | TEXTS
+2023-05-24 11:36:03,411 WARN [image]       TesseractOrder.java:420  | Could not initialize Tesseract lang: deu+eng+fra result: -1
+2023-05-24 11:36:03,418 INFO [image]              OcrUtil.java:127  | No OCR'ed lines
+2023-05-24 11:36:03,447 INFO [image]       StepMonitoring.java:98   | MEASURES
+2023-05-24 11:36:03,475 INFO [image]                 Page.java:308  | 15 raw measures: [5 in system#1, 5 in system#2, 5 in system#3]
+2023-05-24 11:36:03,480 INFO [image]       StepMonitoring.java:98   | CHORDS
+2023-05-24 11:36:03,550 INFO [image]       StepMonitoring.java:98   | CURVES
+2023-05-24 11:36:06,240 INFO [image]         SlursBuilder.java:240  | Slurs: 10
+2023-05-24 11:36:06,552 INFO [image]      SegmentsBuilder.java:155  | Segments: 4
+2023-05-24 11:36:06,562 INFO [image]       StepMonitoring.java:98   | SYMBOLS
+2023-05-24 11:36:07,387 INFO [image]       StepMonitoring.java:98   | LINKS
+2023-05-24 11:36:07,498 INFO [image]        SymbolsLinker.java:434  | No chord above PedalInter#2551{(0.185) PEDAL_MARK}
+2023-05-24 11:36:07,500 INFO [image]        SymbolsLinker.java:434  | No chord above PedalInter#2553{(0.685) PEDAL_MARK}
+2023-05-24 11:36:07,916 INFO [image]       StepMonitoring.java:98   | RHYTHMS
+2023-05-24 11:36:08,113 INFO [image]       StepMonitoring.java:98   | PAGE
+2023-05-24 11:36:08,129 INFO [image]                 Book.java:2535 | Book{image} storing
+2023-05-24 11:36:08,214 INFO [image]                 Book.java:2515 | Stored /book.xml
+2023-05-24 11:36:08,385 INFO [image]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2023-05-24 11:36:09,197 INFO [image]                Sheet.java:1531 | Stored /sheet#1/sheet#1.xml
+2023-05-24 11:36:09,199 INFO [image]                 Book.java:2476 | Book stored as mxl\image.omr
+2023-05-24 11:36:09,211 INFO [image]            SheetStub.java:1605 | Disposed sheet
+2023-05-24 11:36:09,276 INFO [image]                 Book.java:2035 | End of Stub#1 memory: 30,796,432
+2023-05-24 11:36:09,278 INFO [image]                 Book.java:584  | Created scores: [{Score null}]
+2023-05-24 11:36:10,047 INFO [image]            SheetStub.java:1044 | Loaded /sheet#1/sheet#1.xml
+2023-05-24 11:36:10,697 INFO [image]        ScoreExporter.java:164  | Score image exported to mxl\image.mxl
+2023-05-24 11:36:10,738 INFO [image]                Score.java:187  | Closing {Score 1}
