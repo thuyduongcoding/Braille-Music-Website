@@ -17,9 +17,9 @@ def upload():
         return 'No image in the request'
     return 'Upload page'
 
-@app.route('/hello')
+@app.route('/')
 def hello():
-    return 'Testing sucess'
+    return render_template('upload.html')
 
 if __name__ == '__main__':
     app.run()
