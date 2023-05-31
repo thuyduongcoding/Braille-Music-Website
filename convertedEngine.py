@@ -37,4 +37,5 @@ Converting musicXML file to braille file
 """
 def convert_to_braille(mxl_path):
     c = converter.parse(mxl_path)
-    c.write('braille', fp='output/sheet.brf')
+    # c.show("braille")
+    c.write('braille', fp='output/sheet.txt')

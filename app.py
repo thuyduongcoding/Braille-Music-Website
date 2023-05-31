@@ -13,13 +13,13 @@ def upload():
             
             # Save the image or perform further processing
             convert.convert(image_path)
-            return send_file('./output/sheet.brf')
+            return send_file('./output/sheet.txt', as_attachment=True)
         return 'No image in the request'
     return 'Upload page'
 
-@app.route('/')
-def hello():
-    return render_template('upload.html')
+# @app.route('/')
+# def hello():
+#     return render_template('upload.html')
 
 if __name__ == '__main__':
     app.run()
