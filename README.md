@@ -17,13 +17,13 @@ The website is developed using knowledge acquired from the research of related a
 4. Generate the braille representation of the music scores in a text (.txt) file and download the file.
 With the file of the braille representation of the music scores, users can use the braille embosser to print the braille music sheets to read them.
 
-## Team members:
-Lam Vu An
-Nguyen Khanh Thuy Duong
-Do Hoang Duc
-Tran Thi Ngoc Quynh
-Do Phan Quynh Trang
-Dong Thi Hai Yen
+## Team Members:
+1. Lam Vu An
+2. Nguyen Khanh Thuy Duong
+3. Do Hoang Duc
+4. Tran Thi Ngoc Quynh
+5. Do Phan Quynh Trang
+6. Dong Thi Hai Yen
 
 ## Acknowledgement
 This project could not have been successful without the enthusiastic support from 4 professors of the course “Applied Digital Humanities for Vietnam Studies”. We would like to express our sincerest thanks to the founder of the course, Professor Nguyễn Nam of Fulbright University Vietnam. With expertise in the field of East Asian Studies and especially a background in Vietnam Studies, he has brought us unique perspectives on aspects of the transformation of Vietnamese society. Moreover, we would like to express our deep gratitude to the enthusiastic support of three Professors from Hanoi National University, including Professor Lê Thị Thanh Lê. Lê Thanh Hà, Lê Công Thương with deep expertise in the field of digital humanities. Three supported us in project orientation and technology product implementation. Professor Lê Thị Thanh Lê has great comments and advice in the area of research and community exploration. Professors Lê Thanh Hà and Lê Công Thương have brought us useful knowledge in the field of engineering and technology. We would like to sincerely thank the support and companionship of four wonderful professors who are outstanding in the field of digital humanities in Vietnam.
